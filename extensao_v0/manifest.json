@@ -1,0 +1,33 @@
+{
+    "name": "Extensão Trata Texto",
+    "description": "Extensão Trata Texto",
+    "version": "0.0.1",
+    "manifest_version": 3,
+    "icons": {
+        "16": "law.png",
+        "32": "law.png",
+        "48": "law.png",
+        "128":"law.png"
+    },
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": {
+            "16": "law.png",
+            "32": "law.png",
+            "48": "law.png",
+            "128": "law.png"
+        }
+    },
+    "options_page": "index.html",
+    "permissions": [
+        "storage",
+        "activeTab",
+        "scripting",
+        "tabs"
+    ],
+    "host_permissions": [
+            "<all_urls>"
+    ]
+}
+
+
